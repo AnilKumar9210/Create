@@ -1,0 +1,82 @@
+.auth-form  {
+  width: 335px;
+  height: 350px;
+  margin: auto;
+  align-content: center;
+  border-radius: 10px;
+  box-shadow: 0px 2px 11px 3px rgba(188, 183, 183, 0.72);
+  -webkit-box-shadow: 0px 2px 11px 3px rgba(188, 183, 183, 0.72);
+  -moz-box-shadow: 0px 2px 11px 3px rgba(188, 183, 183, 0.72);
+}
+
+.auth-form h1 {
+  text-align: center;
+  color: #58bc82;;
+}
+
+.auth-sec {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.auth-form form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.auth-form form input {
+  height: 35px;
+  width: 80%;
+  position: relative;
+  border-radius: 6px;
+  border: honeydew;
+  background-color: #ececec;
+  text-align: center;
+  padding: 2px;
+  box-shadow: 0px 2px 11px 3px rgba(188, 183, 183, 0.72);
+  -webkit-box-shadow: 0px 2px 11px 3px rgba(188, 183, 183, 0.72);
+  -moz-box-shadow: 0px 2px 11px 3px rgba(188, 183, 183, 0.72);
+}
+
+.auth-form form button {
+  width: 88px;
+  height: 43px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all ease-in-out 0.1s;
+}
+
+.auth-form form button:hover {
+  box-shadow: 0px 2px 11px 3px rgba(188, 183, 183, 0.72);
+  -webkit-box-shadow: 0px 2px 11px 3px rgba(188, 183, 183, 0.72);
+  -moz-box-shadow: 0px 2px 11px 3px rgba(188, 183, 183, 0.72);
+  cursor: pointer;
+}
+
+.auth-form form input:focus {
+    outline: 2px solid #58bc82;
+}
+
+.auth-form form span {
+    font-size: 12px;
+}
+
+.link {
+    color: blue;
+}
+
+.link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
