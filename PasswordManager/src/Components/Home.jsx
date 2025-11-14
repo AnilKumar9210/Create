@@ -7,7 +7,7 @@ import { Appcontext } from '../Context/context'
 const Home = () => {
 
   const navigate = useNavigate ();
-  // const {isLogin} = useContext (Appcontext);
+  const {isLogin} = useContext (Appcontext);
   const [showPass, setShowPass] = useState(false);
   const [formData, setFormData] = useState({
     website: '',
@@ -16,11 +16,11 @@ const Home = () => {
   });
   const [result, setResult] = useState ([]);
 
-  // useEffect (()=>{
-  //   if (!isLogin){
-  //     navigate ('/login');
-  //   }
-  // }, [isLogin])
+  useEffect (()=>{
+    if (!isLogin){
+      navigate ('/login');
+    }
+  }, [isLogin])
 
   const handleSubmit = (e)=> {
     e.preventDefault();
