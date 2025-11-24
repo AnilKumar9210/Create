@@ -1,8 +1,9 @@
 .auth-form  {
   width: 335px;
-  height: 350px;
+  height: auto;
   margin: auto;
   align-content: center;
+  padding: 10px;
   border-radius: 10px;
   box-shadow: 0px 2px 11px 3px rgba(188, 183, 183, 0.72);
   -webkit-box-shadow: 0px 2px 11px 3px rgba(188, 183, 183, 0.72);
@@ -38,7 +39,7 @@
   border-radius: 6px;
   border: honeydew;
   background-color: #ececec;
-  text-align: center;
+  text-align:start;
   padding: 2px;
   box-shadow: 0px 2px 11px 3px rgba(188, 183, 183, 0.72);
   -webkit-box-shadow: 0px 2px 11px 3px rgba(188, 183, 183, 0.72);
@@ -46,7 +47,7 @@
 }
 
 .auth-form form button {
-  width: 88px;
+  width: auto;
   height: 43px;
   background-color: aliceblue;
   border-radius: 10px;
@@ -79,4 +80,33 @@
 .link:hover {
     cursor: pointer;
     text-decoration: underline;
+}
+
+
+.otp-form > span {
+position: relative;
+left: -50px;
+width: 155px;
+}
+
+.otp-form > div {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  position: relative;
+  left: -55px;
+}
+
+.otp-form>div input {
+  width: 15px;
+  height: 15px;
+}
+
+.error {
+  color: red;
+  display: block;
+}
+
+.none {
+  display: none;
 }
